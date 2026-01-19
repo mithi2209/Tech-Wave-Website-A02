@@ -4,16 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Wave</title>
-</head>
-<body>
-    <header>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
 
+    <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./styles/techwave.css">
+
+</head>
+<body class="font-inter">
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <div class="py-6 md:py-8 lg:py-10 px-6 md:px-8 lg:px-40 bg-[#1A0B2E] flex justify-between items-center">
+                <div>
+                    <!-- <h2>
+                        <span class="text-4xl text-white font-bold">Tech</span>
+                         bg-clip-text text-transparent bg-linear-to-b from-[#9100f8]  via-[#fb09b4] to-[#f7e93f] 
+                        <span class="text-4xl font-bold    bg-[linear-gradient(190deg,#9100f8,#fb09b4,#f7e93f)] bg-clip-text text-transparent">Wave</span>
+                    </h2> -->
+                    <img class="w-[150px] lg:w-full " src="./assets/TechWaveLogo.png" alt="">
+                </div>
+
+                <ul class="text-white text-base lg:text-lg font-medium
+                 hidden md:flex gap-0 md:gap-6 lg:gap-9 items-center justify-center">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+
+                <div class="flex md:hidden">
+                    <i class="text-white text-2xl fa-solid fa-bars "></i>
+                </div>
+
+                <div class="hidden md:flex">
+                    <button class="px-5 py-2 lg:px-6 lg:py-3 rounded-full hover:bg-[linear-gradient(#fb09b4)] cursor-pointer bg-[linear-gradient(47.64deg,#f7e93f,#fb09b4,#9100f8)]">
+                    <span class="text-white font-semibold text-sm md:text-base lg:text-lg text-center">Subscribe <i class="ml-1 fa-solid fa-arrow-right-long"></i></span></button>
+                </div>
+                
+            </div>
+            <hr class="text-gray-400 h-2">
+        </nav>
+       
+        <!-- Banner Section -->
+        <section>
+
+        </section>
+        <!-- Banner Section Ends Here -->
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
